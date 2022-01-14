@@ -50,8 +50,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\CodingExercise.CombinationSum\CodingExercise.CombinationSum.csproj">
-      <Project>{508AD620-9439-4392-881D-33A24B0E0D2A}</Project>
+    <ProjectReference Include="..\CodingExercise.CombinationSum\CodingExercise.CombinationSum.csproj">
+      <Project>{508ad620-9439-4392-881d-33a24b0e0d2a}</Project>
       <Name>CodingExercise.CombinationSum</Name>
     </ProjectReference>
   </ItemGroup>
