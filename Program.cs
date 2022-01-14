@@ -1,4 +1,5 @@
 ﻿using CodingExercise.CombinationSum;
+using CodingExercises.Projects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,27 +10,33 @@ namespace CodingExercises
 {
     public class Program
     {
+        /// <summary>
+        /// Add enum following same format when a new coding exercise is added
+        /// </summary>
+        public enum CodingExerciseProject
+        {
+            ProjectsCombinationSum
+        }
+
         public static void Main(string[] args)
         {
-            int[] arr = new int[] { 2, 3, 6, 7 };
-            int target = 7;
-            IList<IList<int>> results = Solution2.CombinationSum(arr, target);
+            // set enum to project to be run
+            var projectEnum = CodingExerciseProject.ProjectsCombinationSum;
 
-            string displayResults = "";
-            string displayArray = "";
-            foreach (var r in results)
+            // when case matches, call method in corresponding project class
+            // - add class to "Projects" folder that will perform the actual function call to the
+            //   library.
+            switch (projectEnum)
             {
-                foreach (var i in r)
-                {
-                    displayArray += i.ToString() + ",";
-                }
-
-                displayResults += string.Format("[{0}],", displayArray.Remove(displayArray.Length - 1));
-                displayArray = "";
+                case CodingExerciseProject.ProjectsCombinationSum:
+                    CombinationSum.CallCombinationSumProject();
+                    break;
+                default:  // just a reminder to set the enum!
+                    Console.Write("No project was selected.  Select the proper enum to begin.");
+                    break;
             }
-
-            Console.WriteLine(string.Format("[{0}]", displayResults.Remove(displayResults.Length - 1)));
             Console.ReadLine();
         }
+
     }
 }
