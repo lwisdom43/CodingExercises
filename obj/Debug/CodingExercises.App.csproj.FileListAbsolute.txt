@@ -1,0 +1,10 @@
+C:\Users\lwisdom\git\source\repos\CodingExercises\CodingExercises\bin\Debug\CodingExercises.exe.config
+C:\Users\lwisdom\git\source\repos\CodingExercises\CodingExercises\bin\Debug\CodingExercises.exe
+C:\Users\lwisdom\git\source\repos\CodingExercises\CodingExercises\bin\Debug\CodingExercises.pdb
+C:\Users\lwisdom\git\source\repos\CodingExercises\CodingExercises\bin\Debug\CodingExercise.CombinationSum.dll
+C:\Users\lwisdom\git\source\repos\CodingExercises\CodingExercises\bin\Debug\CodingExercise.CombinationSum.pdb
+C:\Users\lwisdom\git\source\repos\CodingExercises\CodingExercises\obj\Debug\CodingExercises.App.csprojAssemblyReference.cache
+C:\Users\lwisdom\git\source\repos\CodingExercises\CodingExercises\obj\Debug\CodingExercises.App.csproj.CoreCompileInputs.cache
+C:\Users\lwisdom\git\source\repos\CodingExercises\CodingExercises\obj\Debug\CodingExercises.App.csproj.CopyComplete
+C:\Users\lwisdom\git\source\repos\CodingExercises\CodingExercises\obj\Debug\CodingExercises.exe
+C:\Users\lwisdom\git\source\repos\CodingExercises\CodingExercises\obj\Debug\CodingExercises.pdb
